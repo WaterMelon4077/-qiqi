@@ -345,7 +345,7 @@ function shareText(score) {
     if (score <= 99) return '差一点就上三位数辣，再来一次叭！';
     if (score <= 149) return '好厉害！加油！';
     if (score <= 199) return '您';
-    return '人？';
+    return '人否？';
 }
 
 function toStr(obj) {
